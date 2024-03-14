@@ -1,0 +1,10 @@
+.step-item:not(:last-child):before{
+    content: '';
+    position: absolute;
+    border-radius: 10px;
+    width: 100%;
+    top: 16px;
+    z-index: -10;
+    height: 4px;
+    transform: translateX(10px);
+}
